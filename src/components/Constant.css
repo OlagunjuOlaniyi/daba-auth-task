@@ -1,0 +1,12 @@
+.constant__text-ct {
+  width: 60% !important;
+  margin: auto;
+}
+
+.constant__text-ct h2 {
+  font-weight: 600;
+}
+
+.constant__text-ct p {
+  font-size: 18px;
+}

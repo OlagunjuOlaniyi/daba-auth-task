@@ -1,0 +1,79 @@
+.welcome__container {
+  padding-top: 4rem !important;
+  padding-right: 4rem !important;
+  padding-left: 4rem !important;
+}
+
+.welcome__text-ct a {
+  color: var(--daba-font-color) !important;
+  text-decoration: none;
+}
+
+.welcome__text-ct button {
+  border-radius: 0 !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/**** strike through section ***/
+
+.welcome__strike div {
+  height: 2px;
+  background-color: var(--color-white);
+  position: relative;
+}
+
+.welcome__strike .strike__text {
+  position: absolute;
+  margin: -20px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  background-color: var(--background-color-others);
+}
+
+/** login register section ***/
+
+.welcome__loginReg {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome__loginReg .register {
+  background-color: var(--daba-font-color);
+  border-radius: 30px;
+  color: var(--color-white);
+  font-weight: 500;
+  padding: 13px;
+  width: 65%;
+  margin: auto;
+  text-decoration: none;
+}
+
+.welcome__loginReg .login {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.welcome__loginReg .browse {
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  border: 2px solid var(--daba-font-color);
+  width: 65%;
+  border-radius: 30px;
+  padding: 12px;
+  color: var(--color-white);
+  transition: 0.4s ease;
+}
+
+.welcome__loginReg .browse:hover {
+  background-color: var(--daba-font-color);
+}
+
+@media screen and (max-width: 780px) {
+  .welcome__loginReg .browse {
+    margin-top: 1rem;
+  }
+}
