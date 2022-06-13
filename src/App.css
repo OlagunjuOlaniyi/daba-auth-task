@@ -34,6 +34,22 @@
   width: var(--fixed-width-others);
   background-color: var(--background-color-others);
   margin-left: 60%;
+  padding-top: 4rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+/*** Link styling ****/
+.link {
+  color: var(--daba-font-color) !important;
+  text-decoration: none;
+}
+
+/*** close button ****/
+.close-btn {
+  color: var(--color-white);
+  font-size: 25px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 780px) {
@@ -45,4 +61,44 @@
     margin-left: var(--margin-others-left-sm);
     width: var(--fixed-width-others-sm);
   }
+}
+
+/***** login and register form styling *****/
+.label {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  background: transparent !important;
+  color: var(--color-white) !important;
+  padding: 11px !important;
+}
+
+.form-control::placeholder {
+  color: var(--color-white) !important;
+}
+
+.form-control:focus {
+  border: none;
+}
+
+.btn-gen {
+  background-color: var(--daba-font-color) !important;
+  border-radius: 30px !important;
+  width: 100%;
+  color: var(--color-white) !important;
+  padding: 11px !important;
+  font-weight: 500 !important;
+  margin-top: 20px;
+}
+
+.showHide {
+  position: absolute;
+  margin-top: -38px;
+  margin-left: 20rem;
+  color: var(--daba-font-color);
+  z-index: 2;
+  cursor: pointer;
 }
