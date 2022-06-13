@@ -1,10 +1,11 @@
-.welcome__container {
-}
-
 .welcome__text-ct button {
   border-radius: 0 !important;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.google__icon {
+  font-size: 25px;
 }
 
 /**** strike through section ***/
