@@ -1,12 +1,4 @@
 .welcome__container {
-  padding-top: 4rem !important;
-  padding-right: 4rem !important;
-  padding-left: 4rem !important;
-}
-
-.welcome__text-ct a {
-  color: var(--daba-font-color) !important;
-  text-decoration: none;
 }
 
 .welcome__text-ct button {

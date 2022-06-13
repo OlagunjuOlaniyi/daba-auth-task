@@ -1,6 +1,7 @@
 import React from "react";
 import "./Welcome.css";
 import { Link } from "react-router-dom";
+import { FcGoogle } from "react-icons/fc";
 
 const Welcome = () => {
   return (
@@ -12,10 +13,16 @@ const Welcome = () => {
           </h3>
           <p className="text-white">
             By creating an account, you agree to your{" "}
-            <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+            <Link to="/" className="link">
+              Terms of Service
+            </Link>{" "}
+            and{" "}
+            <Link to="/" className="link">
+              Privacy Policy
+            </Link>
           </p>
           <button className="btn btn-primary px-5 my-3">
-            Continue with Google
+            <FcGoogle /> Continue with Google
           </button>
         </div>
 
@@ -27,19 +34,18 @@ const Welcome = () => {
 
         {/* welcome login - register */}
         <div className="welcome__loginReg">
-          <Link className="register" to="/">
+          <Link className="register" to="/register">
             Create my account
           </Link>
           <Link className="login my-3" to="/login">
             Login to my account
           </Link>
-          <Link className="browse" to="/courses">
+
+          {/* Browse courses */}
+          <Link className="browse" to="/">
             Browse Courses
           </Link>
         </div>
-
-        {/* Browse courses */}
-        <div className="browse__courses"></div>
       </div>
     </div>
   );
