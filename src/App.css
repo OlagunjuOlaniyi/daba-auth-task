@@ -94,6 +94,10 @@
   margin-top: 20px;
 }
 
+.show__ct {
+  position: relative;
+}
+
 .showHide {
   position: absolute;
   margin-top: -38px;
@@ -101,4 +105,11 @@
   color: var(--daba-font-color);
   z-index: 2;
   cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+  .showHide {
+    margin-left: 46%;
+    margin-top: -35px;
+  }
 }
