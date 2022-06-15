@@ -60,6 +60,8 @@
   .width__others {
     margin-left: var(--margin-others-left-sm);
     width: var(--fixed-width-others-sm);
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 
