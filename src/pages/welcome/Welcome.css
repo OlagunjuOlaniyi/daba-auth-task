@@ -67,6 +67,10 @@
 
 @media screen and (max-width: 780px) {
   .welcome__loginReg .browse {
-    margin-top: 1rem;
+    width: 75%;
+  }
+
+  .welcome__loginReg .register {
+    width: 75%;
   }
 }
